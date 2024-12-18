@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private ImageButton btnLeft, btnRight;
 
-    // مصفوفة الصور
+
     private int[] images = {
             R.drawable.img1,
             R.drawable.img2,
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView.setImageResource(images[currentIndex]);
 
-        //
+
         btnLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
